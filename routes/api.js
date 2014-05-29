@@ -16,7 +16,7 @@ function switchLight(id, type) {
     var deferred = Q.defer();
 
     
-    exec("/home/pi/server/onoff " + lightMappings[id - 1] + " " + type, function (error, stdout, stderr) {
+    exec("/home/pi/lights/onoff " + lightMappings[id - 1] + " " + type, function (error, stdout, stderr) {
         console.log('stdout: ' + stdout);
 
         setTimeout(function() {
