@@ -5,4 +5,6 @@ It allows for remote operation as well as manual.
 
 Raspberry Pi has node.js server going on which displays the page with buttons and executes command line util which
 sends commands to lights.
-Server is hardcoded at the moment to work with 4 lights (or other load).
+Server is hardcoded at the moment to work with 4 lights (or other load).  
+
+The receiving code for Atmega chip (or Arduino) is here: https://github.com/Leonti/sketchbook/blob/master/receiver/receiver.ino  
